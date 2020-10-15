@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel='icon' href="../Bilder/favvicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/header.css">
+        <link rel="stylesheet" href="../CSS/footer.css">
+        <link rel="stylesheet" href="../CSS/CollectionItem.css">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <title>Document</title>
+        <style>
+            *{
+                margin: 0;
+                box-sizing: border-box;
+            }
+            .contentMain{
+                padding-top: 8vw; /*Samma som headerns height*/
+            }
+            @media only screen and (max-width: 600px){
+                .contentMain{
+                    padding-top: 16vw;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        
+        <header>
+            <div id="logoPlusNameHeader">
+                <img src="../Bilder/logoWhite.png" alt="Logo" id="logo" height="85%">
+            </div>
+            <nav>
+                <div class="burgerIcon" onClick="toggleButton(this) ; showContent(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <ul id="burgerContent">
+                    <li class="mainLinks" id="startPageLink">
+                        <a href="../HTML/StartPage.html" class="dropDown">Start Page</a>
+                        <div class="subLinks">
+                            <a href="../HTML/StartPage.html#collections">Most viewed collections</a>
+                            <a href="../HTML/StartPage.html#articles">Latest articles</a>
+                        </div>
+                    </li>
+                    <li class="linkBorder"></li>
+                    <li class="mainLinks">
+                        <a href="../HTML/Collections.html" class="dropDown">Collections</a>
+                        <div class="subLinks">
+                            <a href="../HTML/Collections.html#collectionCar">Cars</a>
+                            <a href="../HTML/Collections.html#collectionMusic">Music</a>
+                            <a href="../HTML/Collections.html#collectionShoe">Shoes</a>
+                            <a href="../HTML/Collections.html#collectionGame">Video games</a>
+                        </div>
+                    </li>
+                    <li class="linkBorder"></li>
+                    <li class="mainLinks">
+                        <a href="../HTML/Articles.html" class="dropDown">Articles</a>
+                        <div class="subLinks">
+                            <a href="../HTML/Articles.html#articleNews">News</a>
+                            <a href="../HTML/Articles.html#articleRealeses">New Realeses</a>
+                            <a href="../HTML/Articles.html#articleThrowback">Throwback</a>
+                            <a href="../HTML/Articles.html#articleEditor">Editor's pick</a>
+                        </div>
+                    </li>
+                    <li class="linkBorder"></li>
+                    <li class="mainLinks">
+                        <a href="../HTML/SiteInfo.html" class="dropDown">Site Info</a>
+                        <div class="subLinks">
+                            <a href="../HTML/SiteInfo.html#purpose">Site purpose</a>
+                            <a href="../HTML/SiteInfo.html#contact">Contact Us</a>
+                            <a href="../HTML/SiteInfo.html#siteMap">Site Map</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div id="searchbarPlusLogin">
+                <a href="LoginPage.html">Login</a>
+                <div id="searchBox">
+                    <input id="searchbar" type="search" placeholder="Search">
+                </div>
+                <div id="justForCentering"></div>
+
+            </div>
+        </header>
+        
+        <div class="contentMain">
+            <h1>Ferrari 250 GT SWB 1961</h1>
+            <div class="alignContainer">
+            <div class="carouselContainer">
+            <div class="slideContainer">
+
+            <div class="slides animation">
+                <img id="img1">
+            </div>
+
+            <div class="slides animation">
+                <img id="img2">
+            </div>
+
+            <div class="slides animation">
+                <img id="img3">
+            </div>
+
+        </div>
+        <br>
+
+        <div class="dotContainer">
+            <span class="dot" id="dot1" onclick="currentSlide(0)"></span> 
+            <span class="dot" id="dot2" onclick="currentSlide(1)"></span> 
+            <span class="dot" id="dot3" onclick="currentSlide(2)"></span> 
+        </div>
+           </div>
+            <div class="descriptionContainer">
+                <p>It's quite difficult to find a more beautiful car</p>
+                <a href="">Go back</a>
+            </div>
+            </div>
+            
+        </div>
+        
+        <footer>
+            <div id="alignmentContainer"></div>
+            <div id="footerContentContainer">
+
+                <div id="contactInfo">
+                    <h1>Contact Us</h1>
+                    <p>+46 70-612 34 56</p>
+                    <p>collective@collectors.com</p>
+                </div>
+                <div id="menuFooter">
+                    <h1>Menu</h1>
+                    <ul>
+                        <li><a href="../HTML/StartPage.html">Home</a></li>
+                        <li><a href="../HTML/Collections.html">Collections</a></li>
+                        <li><a href="../HTML/Articles.html">Articles</a></li>
+                        <li><a href="../HTML/SiteInfo.html">About us</a></li>
+                    </ul>
+                </div>
+                <div id="topPostsFooter">
+                    <h1>Most viewed posts</h1>
+                    <ul>
+                        <li><a href="../HTML/CollectionItem.html">Ferrari 250 GT SWB 1961</a></li>
+                        <li><a href="../HTML/CollectionItem.html">Aston Martin DB5 1964</a></li>
+                        <li><a href="../HTML/CollectionItem.html">Mercedes 300SL Gullwing 1954</a></li>
+                    </ul>
+                </div>
+                <div id="containerNewsletterSocialMedia">
+                    <div id="newsletterFooter">
+                        <h1>Newsletter</h1>
+                        <input type="email" placeholder="Your email" class="inputField">
+                        <input type="button" value="Sign Up" class="button">
+                    </div>
+                    <div id="socialMediaFooter">
+                        <a href="#" class="instagram"></a>
+                        <a href="##" class="twitter"></a>
+                        <a href="###"class="facebook"></a>
+                    </div>
+                </div>
+
+            </div>
+            <div id="copyrightContainer">
+                <p>© 2020 Collectors Collective, Inc. All Rights Reserved</p>
+            </div>
+        </footer>
+        <script src="../JAVASCRIPT/carouselItem.js"></script>
+        <script src="../JAVASCRIPT/burgerMenu.js"></script>
+    </body>
+</html>

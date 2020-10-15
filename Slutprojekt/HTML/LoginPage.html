@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel='icon' href="Bilder/favvicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/LoginPage.css">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <title>Collectors Collective</title>
+        <style>
+            *{
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+       <div class="background"></div>
+        <div id="logo"></div> <!--Denna kunde inte ligga i containern av någon anledning-->
+        <div id="logoContainer">
+
+        </div>
+        <div id="loginContainer">
+            <h1>Welcome Collector</h1>
+            <div class="textInput">
+                <input type="email" placeholder="Email" id="email">
+            </div>
+            <div class="textInput">
+                <input type="password" placeholder="Password" id="password">
+            </div>
+            <div id="buttonContainer">
+                <div class="button">
+                    <a href="StartPage.html" id="goBackButton">Go back</a>
+                </div>
+                <div class="button">
+                    <input type="button" value="Login" id="loginButton" onClick="clicked()">
+                </div>
+            </div>
+            <div id="register">
+                <p>Do you not have an account?</p><a href="">Register here</a>
+            </div>
+        </div>
+
+        <script src="../JAVASCRIPT/login.js"></script>
+    </body>
+</html>
