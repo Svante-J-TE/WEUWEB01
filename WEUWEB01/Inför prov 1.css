@@ -1,0 +1,80 @@
+#allcontent{
+    margin: auto;
+    width: 1000px;
+    height: 2000px;
+    background-color: antiquewhite;
+}
+
+#rubrik1{
+    text-align: center;
+}
+
+#main{
+    background-color: aqua;
+    padding: 40px;
+    width: 417px;
+    height: 200px;
+    float: left;
+    border: 2px solid black;
+    border-right: 1px solid black;
+}
+
+#main img{
+    width: 200px;
+    float:right;
+     
+}
+
+#main h3{
+    width: 200px;   
+}
+
+#rightmain{
+    background-color: aqua;
+    padding: 40px;
+    width: 417px;
+    height: 200px;
+    float:right;
+    border: 2px solid black;
+    border-left: 1px solid black;
+    
+}
+
+#rightmain img {
+    width: 200px;
+    float: right;
+}
+
+.ullistsub{
+    font-variant: small-caps;
+}
+
+#ullist{
+    font-family: cursive;
+    width: 200px;
+    height: 260px;
+    background-color: aqua;
+    border: 2px solid black;
+    float: left;
+    margin-top: 15px;
+    margin-left: 150px;
+    
+}
+
+#ollist{
+    font-family: fantasy;
+    width: 200px;
+    height: 260px;
+    background-color: aqua;
+    border: 2px solid black;
+    float: right;
+    margin-top: 15px;
+    margin-right: 150px;
+}
+
+#table table{
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 580px;
+    background-color: aquamarine;
+}

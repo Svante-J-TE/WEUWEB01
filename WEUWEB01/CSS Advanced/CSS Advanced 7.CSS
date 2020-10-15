@@ -1,0 +1,205 @@
+.flex-container{
+    margin: auto;
+    width: 1204px;
+    height: 805px;
+    display: flex;
+    flex-flow: wrap-reverse;
+    background-color: black;
+}
+.flex-container > div{
+    flex: auto;
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    margin: 0.5px;
+    font-family: arial;
+    line-height: 75px; 
+    font-size: 20px;
+    position: relative;
+}
+#shadowMain p{
+    position: relative; 
+    left: 10px; 
+    top: -40px;
+}
+#boxshadow{
+    width: 250px;
+    height: 115px;
+    border: 2px solid black;
+    background-color: red;
+    position: relative; 
+    left: 80px; 
+    bottom: 80px;
+    box-shadow: 25px 25px 1px #BEBEBE;
+}
+#radiusMain p{
+    position: relative; 
+    left: 10px; 
+    top: -40px;
+}
+#radius{
+    width: 250px;
+    height: 115px;
+    border: 2px solid black;
+    background-color: lawngreen;
+    position: relative; 
+    left: 80px; 
+    bottom: 80px;
+    border-radius: 57.5px;
+}
+#transformMain > p{
+    position: relative; 
+    left: 10px; 
+    top: -40px;
+}
+#transform{
+    width: 150px;
+    height: 115px;
+    border: 2px solid black;
+    background-color: #F5F5F5;
+    position: relative; 
+    left: 170px; 
+    bottom: 75px;
+    transform: rotate(35deg);
+}
+#transform p{
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+}
+#opacityMain p{
+    position: relative; 
+    left: 10px; 
+    top: -40px;  
+}
+#circle{
+    width: 170px;
+    height: 170px;
+    background-color: yellow;
+    position: relative; 
+    left: 115px; 
+    bottom: 100px;
+    border-radius: 85px;
+    z-index: 2;
+    opacity: 0.3;
+}
+#opacityMain img{
+    z-index: 1;
+    width: 160px;
+    position: relative; 
+    left: 125px; 
+    bottom: 260px;
+}
+#columnMain > p{
+    position: relative; 
+    left: 10px; 
+    top: -40px;
+}
+#columns p{
+    column-count: 3;
+    font-size: 12px;
+    line-height: 15px;
+    width: 350px;
+    margin: auto;
+    position: relative;
+    bottom: 70px;
+}
+#svgMain p{
+    position: relative; 
+    left: 10px; 
+    top: -40px;
+}
+#svgMain svg{
+    position: relative;
+    bottom: 115px;
+}
+polygon{
+    fill: #FFB6C1;
+    stroke: #4B0082;
+    stroke-width: 2.5px;
+}
+#boxtransMain p{
+    position: relative; 
+    left: 10px; 
+    top: -15px;
+    line-height: 25px;
+}
+#boxtrans{
+    width: 80px;
+    height: 80px;
+    background-color: #0000CD;
+    position: relative;
+    left: 120px;
+    bottom: 60px;
+    transition: width 1s, height 1s, background-color 2s;
+}
+#boxtrans:hover{
+    width: 225px;
+    height: 150px;
+    background-color: aquamarine;
+    border: 1px solid black;
+
+
+}
+#picturesMain{
+    background: url(727.png) no-repeat, url(richman.png) no-repeat, url(emptyroom.jpg) no-repeat;
+    background-size: 45%, 45%, 100%;
+    background-position: 1% 95%, 80% 90%, 0px 0px;
+}
+#zindexMain p{
+    position: relative; 
+    left: 10px; 
+    top: -15px;
+    line-height: 25px;
+}
+zindexMain{
+    position: relative;
+}
+#z1{
+    background-color: #c25596;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    left: 130px;
+    z-index: 1;
+}
+#z2{
+    background-color: #d67551;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    z-index: 2;
+}
+#z3{
+    background-color: #4cad8f;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 70px;
+    left: 170px;
+    z-index: 3;
+}
+#fontFaceMain p{
+    height: 20px;
+    position: relative; 
+    left: 10px; 
+    top: 70px;
+    line-height: 25px;
+}
+@font-face{
+    font-family: custom;
+    src: url(HeyAugust.ttf)
+}
+#fontFaceMain > h1{
+    font-family: custom;
+    font-size: 4em;
+    text-align: center;
+    width: 500px;
+    margin: 0px;
+    position: relative;
+    left: 350px;
+    bottom: -5px;
+}

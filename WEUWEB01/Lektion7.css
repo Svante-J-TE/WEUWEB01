@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+
+ul{
+    background-color: antiquewhite;
+    font-family: "comic sans ms";
+    border: 2px solid green;
+    width: 300px;
+    padding: 20px;
+    margin: 15px;
+}
+
+div{
+    background-color: antiquewhite;
+    width: 500px;
+    border: 2px solid blue;
+    padding: 20px;
+    margin: 15px;
+    
+    
+}
+
+div img{
+    float: right;
+}
+
+
+#main{
+    background-color: aqua;
+    width: 600px;
+    margin:auto;
+    border: 2px solid red;
+}
+

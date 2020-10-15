@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> CSS Advanced 1</title> 
+        <meta charset="utf-8">
+        <style>
+            #shadow {
+                width: 300px;
+                height: 200px;
+                background-color: yellow;
+                margin: 50px;
+                box-shadow: 20px 15px 20px #CCCC00;  
+            }
+            
+            #rund {
+                width: 300px;
+                height: 300px;
+                background-color: yellow;
+                margin: 50px;
+                border-radius: 150px;
+                box-shadow: 20px 15px 20px #CCCC00; 
+            }
+            
+            #rotera {
+                width: 300px;
+                height: 200px;
+                background-color: yellow;
+                margin: 50px;
+                transform: rotate(25deg);
+                box-shadow: 20px 15px 20px #CCCC00;
+            }
+            
+            #skew {
+                width: 300px;
+                height: 200px;
+                background-color: yellow;
+                margin: 50px;
+                transform:skewY(30deg);
+                box-shadow: 20px 15px 20px #CCCC00;
+            }
+            
+            #trans {
+                width: 300px;
+                height: 200px;
+                background-color: yellow;
+                margin: 50px;
+                box-shadow: 20px 15px 20px #CCCC00;
+                transition: width 1s, height 1s, background-color 2s, box-shadow 1s;
+            }
+            
+            #trans:hover {
+                width: 600px;
+                height: 400px;
+                background-color: aqua;
+                box-shadow: 40px 30px 40px #14B0C1; 
+            }
+        
+            
+        </style>
+    </head>
+    <!-- box-shadow= första värdet påverkar x-axeln, andra påverkar y-axeln, tredje påverkar spridningen av skuggan och fjärde är färgen på skuggan -->
+    <!-- transform värden skrivs med deg (degrees) istället för px -->
+    <body>
+        <div id="shadow">
+            
+        </div>
+        
+        <div id="rund">
+        
+        </div>
+        
+        <div id="rotera">
+        
+        </div>
+        
+        <div id="skew">
+        
+        </div>
+        
+        <div id="trans">
+        
+        </div>
+    
+    </body>
+</html>

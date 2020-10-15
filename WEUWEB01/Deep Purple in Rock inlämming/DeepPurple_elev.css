@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+body{
+    height: 960px;
+    width: 1280px;
+    height: 100%;
+    width: 100%;
+    background-color: #faf7f8;
+}
+header {
+    width: 100%;
+    background-color: #be0fd1;
+    height: 200px;
+    
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+#logo div{
+    height: 30px;
+    align-self: center;
+}
+#dp{
+    margin-top: 40px;
+}
+#deeppurp{
+    margin-top: 30px;
+}
+
+
+nav{
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 22px;
+    background-color: #edebec;
+    box-shadow: 5px 0px 10px gray;
+    margin-bottom: 20px;
+}
+#shadow{
+    width: 100%;
+    height: 7px;
+    background-color: black;
+    opacity: 15%;
+    filter: blur(2px);
+    position: relative;
+    top: -1px;
+}
+nav a{
+    display: inline-block;
+    width: 20%;
+    float: left;
+    height: 40px;
+    padding-top: 7px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: 0.1s, 0.2s;
+}
+a:hover{
+    background-color: #f5f2f4;
+    font-size: 25px;
+    
+}
+
+main{
+    width: 1000px;
+    height: 1000px;
+}
+
+main > div{
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 10px grey;
+}
+
+#band{
+    width: 60%;
+    height: 60.8%;
+    background-color: #edebec;
+    margin-left: 6.667%;
+    float: left;
+    border-radius: 15px;
+    
+}
+#bandinfo{
+    padding: 2.5%;
+}
+
+#bandinfo h1{
+    text-align: center;
+}
+#bandinfo p{
+    
+}
+#bandinfo img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+#group{
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#imgContainer{
+    width: 60%;
+    height: 60.8%;
+    float: left;
+    
+    border-radius: 15px;
+    margin-left: 6.667%;
+}
+#cover{
+    border-radius: 15px;
+}
+
+#membersContainer{
+    width: 60%;
+    height: 60.8%;
+    background-color: #edebec;
+    margin-left: 6.667%;
+    float: left;
+    border-radius: 15px;
+    
+}
+#members{
+    padding: 2.5%;
+}
+#members h1{
+    text-align: center;
+}
+    
+#discContainer{
+    width: 60%;
+    height: 60.8%;
+    background-color: #edebec;
+    margin-left: 6.667%;
+    float: left;
+    border-radius: 15px;
+    
+}
+
+#discograpy h1{
+    text-align: center;
+    padding: 2.5%;
+}
+#discograpy ul{
+    padding-left: 10%;
+    padding-top: 2%;
+}
+#discograpy li{
+    margin-top: 1%;
+    font-size: 17px;
+}
+
+footer{
+    column-count: 4;
+    float: left;
+    font-size: 13px;
+    color: ghostwhite;
+    width: 100%;
+    height: 150px;
+    padding: 25px;
+    background-color: #be0fd1;
+}

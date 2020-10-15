@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Verdana;
+            padding: 15px;
+            text-align: center;
+        }
+        .menu{
+            float: left;
+            width: 20%;
+            text-align: center;
+        }
+        .menu a{
+            background-color: lemonchiffon;
+            padding: 8px;
+            margin-top: 7px;
+            display: block;
+            width: 100%;
+            color: gray;
+            font-weight: bold;
+        }
+        .main{
+            float: left;
+            width: 60%;
+            padding: 0 20px;
+        }
+        .right{
+            background-color: lavenderblush;
+            float: left;
+            width: 20%;
+            padding: 15px;
+            margin-top: 7px;
+            text-align: center;
+        }
+        #footer{
+            background-color: ghostwhite;
+            text-align: center;
+            padding: 20px;
+            margin-top: 7px;
+            clear: both;
+        }
+        
+        @media only screen and (min-width:621px) and (max-width:960px){
+            
+            .main{
+                width: 80%;
+            }
+            .right{
+                width: 80%;
+            }
+        }
+        @media only screen and (max-width:620px){
+            .menu,.main,.right{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Header</h1>
+    </div>
+    <div>
+        <div class="menu">
+            <a href="">link 1</a>
+            <a href="">link 2</a>
+            <a href="">link 3</a>
+            <a href="">link 4</a>
+            <a href="">link 5</a>
+            <a href="">link 6</a>
+        </div>
+        <div class="main">
+            <h2>Main</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, magnam. Molestiae autem laboriosam explicabo enim nam tempora voluptates adipisci rerum deserunt nihil, dignissimos reiciendis sit ea suscipit aliquam, voluptas maxime.</p>
+        </div>
+        <div class="right">
+            <h2>Right</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione reiciendis deserunt fuga cumque nam molestiae unde repellendus, odit porro, velit eaque non maiores quidem optio enim perferendis! Iste quia, ipsum.</p>
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>

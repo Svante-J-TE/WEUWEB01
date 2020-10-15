@@ -1,0 +1,144 @@
+.contentMain h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3vw;
+    line-height: 4.5vw;
+    height: 9vw;
+    padding-left: 2%;
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
+}
+.contentMain p{
+    font-size: 1vw;
+}
+.contentMain ul{
+    list-style: none;
+}
+
+#purpose{
+    width: 100%;
+    height: 42.5vw;
+    margin-top: -8vw;
+    padding-top: 8vw;
+}
+#purpose > .textContainer{
+    width: 100%;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#purpose > .textContainer > p{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    width: 50%;
+
+}
+
+#contact{
+    width: 100%;
+    min-height: 42.5vw;
+    margin-top: -8vw;
+    padding-top: 8vw;
+}
+.inputContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.inputContainer > input{
+    color: #2d2d2b;
+    border: 0.1vw solid #2d2d2b;
+    background-color: white;
+    display: block;
+    width: 40%;
+    height: 2.5vw;
+    margin-bottom: 1vw;
+    font-size: 1vw;
+
+}
+.button{
+    margin-bottom: 0;
+}
+textarea{
+    color: #2d2d2b;
+    border: 0.1vw solid #2d2d2b;
+    background-color: white;
+    width: 40%;
+    min-height: 5vw;
+    max-height: 20vw;
+    resize: vertical;
+    margin-bottom: 1vw;
+    font-size: 1vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+#siteMap{
+    width: 100%;
+    height: 85vh;
+    margin-top: -8vw;
+    padding-top: 8vw;
+}
+.mapContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mapContainer a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 600px){
+    .contentMain h1{
+        font-size: 6vw;
+        line-height: 9vw;
+        height: 18vw;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+    }
+    .contentMain #longTitle{
+        height: 27vw;
+    }
+    .contentMain p{
+        font-size: 3vw;
+    }
+    #purpose{
+        height: 85vw;
+        margin-top: -16vw;
+        padding-top: 16vw;
+    }
+    #purpose > .textContainer{
+        height: 40vw;
+    }
+    #contact{
+        min-height: 85vw;
+        margin-top: -16vw;
+        padding-top: 16vw;
+    }
+    .inputContainer > input{
+        width: 60%;
+        height: 5vw;
+        margin-bottom: 2.5vw;
+        font-size: 2.5vw;
+
+    }
+    textarea{
+        width: 60%;
+        min-height: 10vw;
+        max-height: 40vw;
+        margin-bottom: 2.5vw;
+        font-size: 2.5vw;
+    }
+    #siteMap{
+        height: 80vh;
+        margin-top: -16vw;
+        padding-top: 16vw;
+    }
+}

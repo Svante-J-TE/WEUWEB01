@@ -1,0 +1,349 @@
+.moreToSee{
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 0.25vw;
+    overflow: hidden;
+}
+
+.moreToSee .downArrow{
+    background-image: url(../Iconer/arrowBlack.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 2vw;
+    height: 1vw;
+    animation: scroll 1.5s infinite ease-in;
+
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 1;
+        transform: translate(0, -1vw);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0, 2.5vw);
+    }
+}
+.moreToSee a{
+    width: 7%;
+    font-size: 1vw;
+    font-family: 'Roboto', sans-serif;
+    color: #2d2d2b;
+    text-decoration: none;
+    text-align: center;
+    color: #2d2d2b;
+}
+
+
+.collections{
+    padding-top: 8vw;
+    margin-top: -8vw;
+    width: 100%;
+    height: 34vw;
+    display: flex;
+    flex-direction: column;
+}
+.collections h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 4vw;
+    height: 9vw;
+    padding-left: 2%;
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
+}
+.itemContainer{
+    width: 100%;
+    height: 20vw;
+    background-color: #f6f5f2;
+    box-shadow: 
+        inset 0 11px 8px -10px #aaaaaa,    /*Fix to vh and vw*/
+        inset 0 -11px 8px -10px #aaaaaa; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.shoes{
+    background-image: url(../Bilder/collection/shoes/shoePile.jpg);
+    background-size: 150%;
+    background-position: left;
+
+}
+
+.cars{
+    background-image: url(../Bilder/collection/cars/porche.jpg);
+    background-size: 180%;
+    background-position: left;
+}
+.music{
+    background-image: url(../Bilder/collection/music/recordPlayer.png);
+    background-size: 150%;
+    background-position: left;
+}
+.games{
+    background-image:url(../Bilder/collection/videoGames/pacman.jpg);
+    background-size: 150%;
+    background-position: left;
+}
+.collectionItem a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+.collectionItem{
+    width: 20%;
+    height: 12.5vw;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 30px #aaaaaa;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+.collectionItem:hover{
+    transform: scale(1.1);
+    animation: moveBackground 15s forwards;
+}
+
+@keyframes moveBackground{
+    0%{
+        background-position: left;
+    }
+    50%{
+        background-position: right;
+    }
+    100%{
+        background-position: left;
+    }
+}
+.collectionItem h2{
+    padding: 7%;
+    z-index: 3;
+    position: absolute;
+    color: #2d2d2b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5vw;
+}
+.backgroundCover{
+    z-index: 2;
+    position: absolute;
+    width: 60%;
+    border-top: 12.5vw solid #f6f5f2;
+    border-right: 5vw solid transparent;
+}
+
+.articles{
+    padding-top: 8vw;
+    margin-top: -8vw;
+    width: 100%;
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+.articles h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 4vw;
+    height: 9vw;
+    padding-left: 2%;
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
+}
+.articles > .itemContainer{
+    width: 100%;
+    height: 35vw;
+    background-color: #f6f5f2;
+    box-shadow: 
+        inset 0 11px 8px -10px #aaaaaa,    /*Fix to vh and vw*/
+        inset 0 -11px 8px -10px #aaaaaa; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.articleItem{
+    width: 20%;
+    height: 25vw;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 30px #aaaaaa;
+    position: relative;
+}
+.articleItem:hover{
+    transform: scale(1.1);
+}
+.articleItem > .topic{
+    background-color: #FF0800;
+    border-radius: 6%;
+    width: 40%;
+    height: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f6f5f2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+
+}
+.articleItem > h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4vw;
+    width: 100%;
+    height: 3.5vh;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+.timeToRead > .icon{
+    width: 1.2vw;
+    height: 1.2vw;
+}
+.articleItem > .timeToRead{
+    margin: auto;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+    width: 50%;
+    height: 1.5vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.articleItem > a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.articleItem > img{
+    width: 100%;
+    height: 12.5vw; 
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.articleOne > img{
+    background-image: url(../Bilder/collection/shoes/benNJerrys.jpg);
+    background-size: 100%;
+    background-position: 40% 70%;
+}
+.articleTwo > img{
+    background-image: url(../Bilder/collection/music/brunoMars.jpg);
+    background-size: 100%;
+    background-position: right;
+}
+.articleThree > img{
+    background-image: url(../Bilder/collection/music/jackson.jpg);
+    background-size: 110%;
+    background-position: top;
+}
+.articleFour > img{
+    background-image: url(../Bilder/collection/cars/911.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+
+@media only screen and (max-width: 600px){
+    .moreToSee{
+        display: none;
+    }
+    .collections{
+    height: 90vw;
+        margin-top: -16vw;
+    padding-top: 16vw;
+}
+.collections h1{
+    font-size: 5vw;
+    height: 18vw;
+    line-height: 9vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+.itemContainer{
+    height: 65vw;
+    box-shadow: 
+        inset 0 11px 8px -10px #aaaaaa,    /*Fix to vh and vw*/
+        inset 0 -11px 8px -10px #aaaaaa; 
+    flex-wrap: wrap;
+}
+    .collectionItem{
+    width: 40%;
+    height: 25vw;
+    box-shadow: 0 0 30px #aaaaaa;
+}
+    .collectionItem h2{
+    font-size: 5vw;
+}
+.backgroundCover{
+    border-top: 25vw solid #f6f5f2;
+    border-right: 10vw solid transparent;
+}
+    .articles{
+    padding-top: 16vw;
+    margin-top: -16vw;
+    height: 150vw;
+}
+    .articles h1{
+    font-size: 5vw;
+    height: 18vw;
+    line-height: 9vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+    .articles > .itemContainer{
+    height: 120vw;
+    box-shadow: 
+        inset 0 11px 8px -10px #aaaaaa,    /*Fix to vh and vw*/
+        inset 0 -11px 8px -10px #aaaaaa; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+        flex-wrap: wrap;
+
+}
+    .articleItem{
+    width: 40%;
+    height: 50vw;
+    box-shadow: 0 0 30px #aaaaaa;
+}
+    .articleItem > .topic{
+    border-radius: 6%;
+    width: 50%;
+    height: 4vw;
+    font-size: 2vw;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+
+}
+    .articleItem > h2{
+    font-size: 3vw;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    height: 7vh;
+    margin-top: 1vw;
+}
+    .timeToRead > .icon{
+    width: 2.4vw;
+    height: 2.4vw;
+}
+    .articleItem > .timeToRead{
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 45%;
+    height: 3vw;
+    font-size: 2vw;
+}
+    .articleItem > img{
+    height: 25vw; 
+}
+}

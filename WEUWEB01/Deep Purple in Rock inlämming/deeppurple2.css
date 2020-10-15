@@ -1,0 +1,1050 @@
+@media only screen and (min-width:900px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: arial;
+    }
+
+    body{
+        background-color: #faf7f8;
+    }
+
+
+    header {
+        width: 100%;
+        background-color: #be0fd1;
+        height: 200px;
+
+    }
+    #logo{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+    }
+    #logo div{
+        height: 30px;
+        align-self: center;
+    }
+    #dp{
+        margin-top: 40px;
+    }
+    #deeppurp{
+        margin-top: 30px;
+    }
+
+
+    nav{
+        display: inline-block;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        font-size: 22px;
+        background-color: #edebec;
+        box-shadow: 5px 0px 10px gray;
+        margin-bottom: 20px;
+    }
+    #menubutton{
+        display: none;
+    }
+    #shadow{
+        width: 100%;
+        height: 7px;
+        background-color: black;
+        opacity: 15%;
+        filter: blur(2px);
+        position: relative;
+        top: -1px;
+    }
+    nav a{
+        display: inline-block;
+        width: 20%;
+        float: left;
+        height: 40px;
+        padding-top: 7px;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        transition: 0.1s, 0.2s;
+    }
+    a:hover{
+        background-color: #f5f2f4;
+        font-size: 25px;
+
+    }
+
+
+    main > div{
+        margin-bottom: 20px;
+        box-shadow: 1px 1px 10px grey;
+    }
+
+
+    #band{
+        width: 40%;
+        height: 512px;
+        background-color: #edebec;
+        margin-left: 5%;
+        margin-right: 5%;
+        float: left;
+        border-radius: 15px;
+
+    }
+    #bandinfo{
+        padding: 2.5%;
+    }
+    #bandinfo h1{
+        text-align: center;
+        font-size: 35px;
+    }
+    #bandinfo p{
+        font-size: 13px;
+        padding-bottom: 5px;
+    }
+    #bandinfo img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 5px;
+    }
+
+
+    #membersContainer{
+        width: 40%;
+        height: 512px;
+        background-color: #edebec;
+        margin-left: 5%;
+        margin-right: 5%;
+        float: left;
+        border-radius: 15px;
+
+    }
+    #members{
+        padding: 2.5%;
+    }
+    #members h1{
+        text-align: center;
+        font-size: 32px;
+    }
+    #members h2{
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    #members p{
+        font-size: 13px;
+    }
+
+
+    #discContainer{
+        width: 40%;
+        height: 512px;
+        background-color: #edebec;
+        margin-left: 5%;
+        float: left;
+        border-radius: 15px;
+        transition: all 0.5s ease;
+    }
+    #discograpy h1{
+        text-align: center;
+        padding: 2.5%;
+    }
+    #discograpy ul{
+        margin-left: 10%;
+        padding-top: 5px;
+        width: 80%;
+        margin-right: 15%;
+        float: left;
+    }
+    #discograpy li{
+        margin-top: 2px;
+        font-size: 14px;
+    }
+    #cover{
+        border-radius: 15px;
+        float: left;
+        display: none;
+    }
+    #arrow{
+        float: left;
+        position: relative;
+        top: 173px;
+    }
+    #discContainer:hover{
+        width: 80%;
+        margin-left: 10%;
+
+    }
+    #discContainer:hover #cover{
+        display: block;
+        margin-top: 5px;
+        margin-right: 7%;
+
+    }
+    #discContainer:hover ul{
+        width: 50%;
+        margin-left: 10%;
+        margin-right: 0%;
+        column-count: 2;
+    }
+    #discContainer:hover li{
+        font-size: 100%;
+    }
+    #discContainer:hover #arrow{
+        transform: rotate(180deg);
+        
+    }
+
+
+    footer{
+        column-count: 4;
+        float: left;
+        font-size: 13px;
+        color: ghostwhite;
+        width: 100%;
+        height: 200px;
+        padding: 25px;
+        background-color: #be0fd1;
+    }
+}
+
+@media only screen and (min-width:830px) and (max-width:900px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: arial;
+    }
+
+    body{
+        background-color: #faf7f8;
+    }
+
+
+    header {
+        width: 100%;
+        background-color: #be0fd1;
+        height: 200px;
+
+    }
+    #logo{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+    }
+    #logo div{
+        height: 30px;
+        align-self: center;
+    }
+    #dp{
+        margin-top: 40px;
+    }
+    #deeppurp{
+        margin-top: 30px;
+    }
+
+
+    nav{
+        display: inline-block;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        font-size: 22px;
+        background-color: #edebec;
+        box-shadow: 5px 0px 10px gray;
+        margin-bottom: 20px;
+    }
+    #menubutton{
+        display: none;
+    }
+    #shadow{
+        width: 100%;
+        height: 7px;
+        background-color: black;
+        opacity: 15%;
+        filter: blur(2px);
+        position: relative;
+        top: -1px;
+    }
+    nav a{
+        display: inline-block;
+        width: 20%;
+        float: left;
+        height: 40px;
+        padding-top: 7px;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        transition: 0.1s, 0.2s;
+    }
+    a:hover{
+        background-color: #f5f2f4;
+        font-size: 25px;
+
+    }
+
+
+    main > div{
+        margin-bottom: 20px;
+        box-shadow: 1px 1px 10px grey;
+    }
+
+
+    #band{
+        width: 40%;
+        height: 512px;
+        background-color: #edebec;
+        margin-left: 5%;
+        margin-right: 5%;
+        float: left;
+        border-radius: 15px;
+
+    }
+    #bandinfo{
+        padding: 2.5%;
+    }
+    #bandinfo h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    #bandinfo p{
+        font-size: 12px;
+        padding-bottom: 5px;
+
+    }
+    #bandinfo img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 5px;
+        width: 90%;
+    }
+
+
+    #membersContainer{
+        width: 40%;
+        height: 512px;
+        background-color: #edebec;
+        margin-left: 5%;
+        margin-right: 5%;
+        float: left;
+        border-radius: 15px;
+
+    }
+    #members{
+        padding: 2.5%;
+    }
+    #members h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    #members h2{
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    #members p{
+        font-size: 12px;
+    }
+
+
+    #discContainer{
+        width: 40%;
+        height: 512px;
+        background-color: #edebec;
+        margin-left: 5%;
+        float: left;
+        border-radius: 15px;
+        transition: all 0.5s ease;
+    }
+    #discograpy h1{
+        text-align: center;
+        padding: 2.5%;
+    }
+    #discograpy ul{
+        margin-left: 10%;
+        padding-top: 5px;
+        width: 80%;
+        margin-right: 20%;
+        float: left;
+    }
+    #discograpy li{
+        margin-top: 2px;
+        font-size: 14px;
+    }
+    #cover{
+        border-radius: 15px;
+        float: left;
+        display: none;
+    }
+    #discContainer:hover{
+        width: 80%;
+        margin-left: 10%;
+
+    }
+    #discContainer:hover #cover{
+        display: block;
+        margin-top: 5px;
+
+    }
+    #discContainer:hover ul{
+        width: 50%;
+        margin-left: 10%;
+        margin-right: 0%;
+        column-count: 2;
+    }
+    #discContainer:hover li{
+        font-size: 100%;
+    }
+
+
+    footer{
+        column-count: 4;
+        float: left;
+        font-size: 13px;
+        color: ghostwhite;
+        width: 100%;
+        height: 200px;
+        padding: 25px;
+        background-color: #be0fd1;
+    }
+}
+
+@media only screen and (min-width:701px) and (max-width:830px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: arial;
+    }
+
+    body{
+        background-color: #faf7f8;
+    }
+
+
+    header {
+        width: 100%;
+        background-color: #be0fd1;
+        height: 200px;
+
+    }
+    #logo{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+    }
+    #logo div{
+        height: 30px;
+        align-self: center;
+    }
+    #dp{
+        margin-top: 40px;
+    }
+    #deeppurp{
+        margin-top: 30px;
+    }
+
+
+    nav{
+        display: inline-block;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        font-size: 22px;
+        background-color: #edebec;
+        box-shadow: 5px 0px 10px gray;
+        margin-bottom: 20px;
+    }
+    #menubutton{
+        display: none;
+    }
+    #shadow{
+        width: 100%;
+        height: 7px;
+        background-color: black;
+        opacity: 15%;
+        filter: blur(2px);
+        position: relative;
+        top: -1px;
+    }
+    nav a{
+        display: inline-block;
+        width: 20%;
+        float: left;
+        height: 40px;
+        padding-top: 7px;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        transition: 0.1s, 0.2s;
+    }
+    a:hover{
+        background-color: #f5f2f4;
+        font-size: 25px;
+
+    }
+
+
+    main > div{
+        margin-bottom: 20px;
+        box-shadow: 1px 1px 10px grey;
+    }
+
+
+    #band{
+        width: 40%;
+        height: 512px;
+        background-color: #edebec;
+        margin-left: 5%;
+        margin-right: 5%;
+        float: left;
+        border-radius: 15px;
+
+    }
+    #bandinfo{
+        padding: 2.5%;
+    }
+    #bandinfo h1{
+        text-align: center;
+        font-size: 25px;
+    }
+    #bandinfo p{
+        font-size: 11px;
+    }
+    #bandinfo img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 5px;
+        margin-top: 40px;
+        width: 90%;
+    }
+
+
+    #membersContainer{
+        width: 40%;
+        height: 512px;
+        background-color: #edebec;
+        margin-left: 5%;
+        margin-right: 5%;
+        float: left;
+        border-radius: 15px;
+
+    }
+    #members{
+        padding: 2.5%;
+    }
+    #members h1{
+        text-align: center;
+        font-size: 25px;
+    }
+    #members h2{
+        margin-top: 0px;
+        font-size: 18px;
+    }
+    #members p{
+        font-size: 11px;
+    }
+
+
+    #discContainer{
+        width: 40%;
+        height: 512px;
+        background-color: #edebec;
+        margin-left: 5%;
+        float: left;
+        border-radius: 15px;
+        transition: all 0.5s ease;
+    }
+    #discograpy h1{
+        text-align: center;
+        padding: 2.5%;
+    }
+    #discograpy ul{
+        padding-left: 10%;
+        padding-top: 5px;
+        float: left;
+        width: 80%;
+    }
+    #discograpy li{
+        margin-top: 2px;
+        font-size: 14px;
+    }
+    #cover{
+        border-radius: 15px;
+        float: left;
+        border-radius: 15px;
+        margin-left: 1%;
+        margin-right: 1%;
+        display: none;
+    }
+    #discContainer:hover{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #discContainer:hover #cover {
+        display: block;
+        margin-left: 5%;
+        position: relative;
+        margin-top: 100px; 
+    }
+    #discContainer:hover h1 {
+        display: block;
+    }
+    #discContainer:hover ul {
+        column-count: 1;
+        padding-left: 5%;
+    }
+    #discContainer:hover li {
+        font-size: 1em;
+        margin-left: 20px;
+
+    }
+
+
+
+
+    footer{
+        column-count: 3;
+        float: left;
+        font-size: 13px;
+        color: ghostwhite;
+        width: 100%;
+        height: 300px;
+        padding: 25px;
+        background-color: #be0fd1;
+    }  
+}
+
+@media only screen and (min-width:600px) and (max-width:701px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: arial;
+    }
+
+    body{
+        background-color: #faf7f8;
+    }
+
+
+    header {
+        width: 100%;
+        background-color: #be0fd1;
+        height: 200px;
+
+    }
+    #logo{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+    }
+    #logo div{
+        height: 30px;
+        align-self: center;
+    }
+    #dp{
+        margin-top: 40px;
+    }
+    #deeppurp{
+        margin-top: 30px;
+    }
+
+
+    nav{
+        display: inline-block;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        font-size: 22px;
+        background-color: #edebec;
+        box-shadow: 5px 0px 10px gray;
+        margin-bottom: 20px;
+    }
+    #menubutton{
+        display: none;
+    }
+    #shadow{
+        width: 100%;
+        height: 7px;
+        background-color: black;
+        opacity: 15%;
+        filter: blur(2px);
+        position: relative;
+        top: -1px;
+    }
+    nav a{
+        display: inline-block;
+        width: 20%;
+        float: left;
+        height: 40px;
+        padding-top: 7px;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        transition: 0.1s, 0.2s;
+    }
+    a:hover{
+        background-color: #f5f2f4;
+        font-size: 25px;
+
+    }
+
+
+    main > div{
+        margin-bottom: 20px;
+        box-shadow: 1px 1px 10px grey;
+    }
+
+
+    #band{
+        width: 80%;
+        height: 512px;
+        background-color: #edebec;
+        margin-left: 10%;
+        margin-right: 10%;
+        float: left;
+        border-radius: 15px;
+
+    }
+    #bandinfo{
+        padding: 2.5%;
+    }
+    #bandinfo h1{
+        text-align: center;
+        font-size: 35px;
+    }
+    #bandinfo p{
+        font-size: 13px;
+        padding-bottom: 5px;
+    }
+    #bandinfo img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 70%;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+
+
+    #membersContainer{
+        width: 80%;
+        height: 512px;
+        background-color: #edebec;
+        margin-left: 10%;
+        margin-right: 10%;
+        float: left;
+        border-radius: 15px;
+
+    }
+    #members{
+        padding: 2.5%;
+    }
+    #members h1{
+        text-align: center;
+        font-size: 32px;
+    }
+    #members h2{
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    #members p{
+        font-size: 13px;
+    }
+
+
+    #discContainer{
+        width: 80%;
+        height: 512px;
+        background-color: #edebec;
+        margin-left: 10%;
+        margin-right: 10%;
+        float: left;
+        border-radius: 15px;
+        transition: all 0.5s ease;
+    }
+    #discograpy h1{
+        text-align: center;
+        padding: 2.5%;
+    }
+    #discograpy ul{
+        margin-left: 10%;
+        padding-top: 10px;
+        width: 80%;
+        margin-right: 20%;
+        float: left;
+    }
+    #discograpy li{
+        margin-top: 2px;
+        font-size: 14px;
+    }
+    #cover{
+        border-radius: 15px;
+        float: left;
+        display: none;
+    }
+    #discContainer:hover{
+        height: 1024px;
+        margin-left: 10%;
+
+    }
+    #discContainer:hover #cover{
+        display: block;
+        margin-top: 5px;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%; 
+    }
+    #discContainer:hover ul{
+        width: 90%;
+        height: 500px;
+        margin-left: 7.5%;
+        margin-right: 2.5%;
+        margin-bottom: 25px;
+        column-count: 2;
+        column-fill: auto;
+    }
+    #discContainer:hover li{
+        font-size: 100%;
+        margin-bottom: 7px;
+    }
+
+
+    footer{
+        column-count: 3;
+        float: left;
+        font-size: 13px;
+        color: ghostwhite;
+        width: 100%;
+        height: 350px;
+        padding: 25px;
+        background-color: #be0fd1;
+    }
+}
+
+@media only screen and (max-width:600px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: arial;
+    }
+
+    body{
+        background-color: #faf7f8;
+    }
+
+
+    header {
+        width: 100%;
+        background-color: #be0fd1;
+        height: 200px;
+
+    }
+    #logo{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+    }
+    #logo div{
+        height: 30px;
+        align-self: center;
+    }
+    #dp{
+        margin-top: 40px;
+    }
+    #deeppurp{
+        margin-top: 30px;
+        display: none;
+    }
+
+
+    nav{
+        display: inline-block;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        font-size: 22px;
+        background-color: #edebec;
+        box-shadow: 5px 0px 10px gray;
+        margin-bottom: 20px;
+    }
+    #shadow{
+        width: 100%;
+        height: 7px;
+        background-color: black;
+        opacity: 15%;
+        filter: blur(2px);
+        position: relative;
+        top: -1px;
+    }
+    #menubutton {
+        width: 100%;
+        height: 100%;
+    }
+    #menubutton > p{
+        font-size: 30px;
+        color: black;
+        padding-top: 5px;
+    }
+
+    #menu {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        width: 100%;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    #menu a {
+        color: black;
+        width: 100%;
+        text-decoration: none;
+        display: block;
+    }
+
+    #menu a:hover {background-color: #ddd;}
+
+    nav:hover #menu {display: block;}
+
+    nav:hover #menubutton {background-color: #ddd;}
+
+
+    main > div{
+        margin-bottom: 20px;
+        box-shadow: 1px 1px 10px grey;
+    }
+
+
+    #band{
+        width: 80%;
+        height: 512px;
+        background-color: #edebec;
+        margin-left: 10%;
+        margin-right: 10%;
+        float: left;
+        border-radius: 15px;
+
+    }
+    #bandinfo{
+        padding: 2.5%;
+    }
+    #bandinfo h1{
+        text-align: center;
+        font-size: 35px;
+    }
+    #bandinfo p{
+        font-size: 13px;
+        padding-bottom: 5px;
+    }
+    #bandinfo img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 70%;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+
+
+    #membersContainer{
+        width: 80%;
+        height: 512px;
+        background-color: #edebec;
+        margin-left: 10%;
+        margin-right: 10%;
+        float: left;
+        border-radius: 15px;
+
+    }
+    #members{
+        padding: 2.5%;
+    }
+    #members h1{
+        text-align: center;
+        font-size: 32px;
+    }
+    #members h2{
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    #members p{
+        font-size: 13px;
+    }
+
+
+    #discContainer{
+        width: 80%;
+        height: 512px;
+        background-color: #edebec;
+        margin-left: 10%;
+        margin-right: 10%;
+        float: left;
+        border-radius: 15px;
+        transition: all 0.5s ease;
+    }
+    #discograpy h1{
+        text-align: center;
+        padding: 2.5%;
+    }
+    #discograpy ul{
+        margin-left: 10%;
+        padding-top: 10px;
+        width: 80%;
+        margin-right: 20%;
+        float: left;
+    }
+    #discograpy li{
+        margin-top: 2px;
+        font-size: 13px;
+    }
+    #cover{
+        border-radius: 15px;
+        float: left;
+        display: none;
+    }
+    #discContainer:hover{
+        height: 1024px;
+        margin-left: 10%;
+
+    }
+    #discContainer:hover #cover{
+        display: block;
+        margin-top: 5px;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%; 
+    }
+    #discContainer:hover ul{
+        width: 90%;
+        height: 500px;
+        margin-left: 7.5%;
+        margin-right: 2.5%;
+        margin-bottom: 25px;
+        column-count: 2;
+        column-fill: auto;
+    }
+    #discContainer:hover li{
+        font-size: 100%;
+        margin-bottom: 7px;
+    }
+
+
+    footer{
+        column-count: 3;
+        float: left;
+        font-size: 13px;
+        color: ghostwhite;
+        width: 100%;
+        height: 350px;
+        padding: 25px;
+        background-color: #be0fd1;
+    } 
+}

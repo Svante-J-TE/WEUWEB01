@@ -1,0 +1,192 @@
+<html>
+
+    <head>
+        <meta charset=utf-8>
+        <title>MediaQueries med Layoutexempel: display: inline-block</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * {
+                box-sizing: border-box;
+                padding: 10px;
+                font-family: sans-serif;
+            }
+
+            header,
+            footer {
+                background-color: #bbc;
+
+            }
+
+
+            nav {
+                background-color: #333;
+            }
+
+            nav ul {
+                margin: 0;
+                padding: 0;
+            }
+
+            nav ul li {
+                list-style: none;
+            }
+
+            nav ul li:hover {
+                background-color: #666;
+            }
+
+            nav a {
+                color: white;
+            }
+
+
+            #kolumn-1 {
+                background-color: #aaa;
+            }
+
+            #kolumn-2 {
+                background-color: #bbb;
+            }
+
+            #kolumn-3 {
+                background-color: #ccc;
+            }
+
+            #kolumn-4 {
+                background-color: #ddd;
+            }
+
+            #sec1 {
+                background-color: lightcyan;
+            }
+
+            #sec2 {
+                background-color: azure;
+            }
+
+            #sec3 {
+                background-color: skyblue;
+            }
+            
+            @media screen and (min-width: 992px){
+                header{
+                    width:100%;
+                }
+                 li{
+                    float: left;
+                }
+                nav{
+                    height: 60px;
+                }
+                #kolumn-1, #kolumn-2, #kolumn-3, #kolumn-4{
+                    float: left;
+                    width: 25%;
+                }
+                #sec1, #sec2, #sec3{
+                   float: left;
+                    width: 20%;
+                }
+                footer{
+                    display: flex;
+                    justify-content: space-around;
+                }
+                
+            }
+            @media screen and (min-width: 768px) and (max-width: 991px){
+                header{
+                    width:100%;
+                }
+                 li{
+                    float: left;
+                }
+                nav{
+                    height: 60px;
+                }
+                #kolumn-1, #kolumn-2, #kolumn-3, #kolumn-4{
+                    float: left;
+                    width: 50%;
+                }
+                #sec1, #sec2, #sec3{
+                   float: left;
+                    width: 30%;
+                }
+                footer{
+                    display: flex;
+                    justify-content: space-around;
+                }   
+            }
+            @media screen and (min-width: 480px) and (max-width: 767px){
+                header{
+                    width:100%;
+                }
+                 li{
+                    float: left;
+                }
+                nav{
+                    height: 60px;1
+                }
+                
+                #sec1, #sec2, #sec3{
+                    width: 50%;
+                    
+                    float: left;
+                }
+                footer{
+                    height: 25%;
+                    float: clear;
+                }
+            }
+            @media screen and (max-width: 479px){
+                
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Sidhuvud med text logo och meny</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#">Produkter</a></li>
+                <li><a href="#">Tjänster</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+
+        <article id="kolumn-1">
+            <h2>Kolumn 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus placerat, erat at gravida porta, ante sem tempor justo, a feugiat metus quam fermentum sem. Donec sit amet lobortis magna. Duis non mi ultricies, convallis turpis vel, sodales dui. Nunc bibendum id ipsum quis interdum. Duis placerat ornare mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero ex, rhoncus et dolor non, bibendum faucibus neque. Praesent vestibulum varius enim non mattis. Nam fringilla elementum ex, id semper ex porttitor eget. Nullam ut nisl dictum, volutpat lacus eu, suscipit turpis.</p>
+        </article>
+
+        <article id="kolumn-2">
+            <h2>Kolumn 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus placerat, erat at gravida porta, ante sem tempor justo, a feugiat metus quam fermentum sem. Donec sit amet lobortis magna. Duis non mi ultricies, convallis turpis vel, sodales dui. Nunc bibendum id ipsum quis interdum. Duis placerat ornare mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero ex, rhoncus et dolor non, bibendum faucibus neque. Praesent vestibulum varius enim non mattis. Nam fringilla elementum ex, id semper ex porttitor eget. Nullam ut nisl dictum, volutpat lacus eu, suscipit turpis.</p>
+        </article>
+        <article id="kolumn-3">
+            <h2>Kolumn 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus placerat, erat at gravida porta, ante sem tempor justo, a feugiat metus quam fermentum sem. Donec sit amet lobortis magna. Duis non mi ultricies, convallis turpis vel, sodales dui. Nunc bibendum id ipsum quis interdum. Duis placerat ornare mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero ex, rhoncus et dolor non, bibendum faucibus neque. Praesent vestibulum varius enim non mattis. Nam fringilla elementum ex, id semper ex porttitor eget. Nullam ut nisl dictum, volutpat lacus eu, suscipit turpis.</p>
+        </article>
+
+        <article id="kolumn-4">
+            <h2>Kolumn 4</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus placerat, erat at gravida porta, ante sem tempor justo, a feugiat metus quam fermentum sem. Donec sit amet lobortis magna. Duis non mi ultricies, convallis turpis vel, sodales dui. Nunc bibendum id ipsum quis interdum. Duis placerat ornare mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero ex, rhoncus et dolor non, bibendum faucibus neque. Praesent vestibulum varius enim non mattis. Nam fringilla elementum ex, id semper ex porttitor eget. Nullam ut nisl dictum, volutpat lacus eu, suscipit turpis.</p>
+        </article>
+
+        <footer>
+            <section id="sec1">
+                <p>Sidfot med t.ex kontakt-information</p>
+            </section>
+            <section id="sec2">
+                <p>...och Facebook / Instagram-länkar</p>
+            </section>
+            <section id="sec3">
+                <p>...och en karta kanske?</p>
+            </section>
+        </footer>
+
+    </body>
+</html>
